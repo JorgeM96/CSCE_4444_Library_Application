@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library_mgmt.Library_AdminMenuController">
+   <children>
+      <Label fx:id="userLabel" layoutX="791.0" layoutY="43.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="signOutBtn" layoutX="785.0" layoutY="82.0" mnemonicParsing="false" onAction="#handleSignOut" text="Sign Out" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="372.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Menu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="directoryBtn" layoutX="442.0" layoutY="179.0" mnemonicParsing="false" onAction="#handlePDirectory" prefHeight="67.0" prefWidth="140.0" text="User Directory" />
+      <Button fx:id="regBtn" layoutX="285.0" layoutY="179.0" mnemonicParsing="false" onAction="#handlePRegister" prefHeight="67.0" prefWidth="140.0" text="Register User" />
+      <Button fx:id="bookBtn" layoutX="199.0" layoutY="274.0" mnemonicParsing="false" onAction="#handleBooks" prefHeight="67.0" prefWidth="140.0" text="Books" />
+      <Button fx:id="cdBtn" layoutX="355.0" layoutY="274.0" mnemonicParsing="false" onAction="#handleCDs" prefHeight="67.0" prefWidth="140.0" text="CDs" />
+      <Button fx:id="dvdBtn" layoutX="510.0" layoutY="274.0" mnemonicParsing="false" onAction="#handleDVDs" prefHeight="67.0" prefWidth="140.0" text="DVDs" />
+      <Button fx:id="checkoutBtn" layoutX="199.0" layoutY="369.0" mnemonicParsing="false" onAction="#handleCheckout" prefHeight="67.0" prefWidth="140.0" text="Checkout" />
+      <Button fx:id="checkinBtn" layoutX="355.0" layoutY="369.0" mnemonicParsing="false" onAction="#handleCheckin" prefHeight="67.0" prefWidth="140.0" text="Checkin" />
+      <Button fx:id="findCBtn" layoutX="512.0" layoutY="369.0" mnemonicParsing="false" onAction="#handleFCheckout" prefHeight="67.0" prefWidth="140.0" text="Find Checkout" />
+   </children>
+</AnchorPane>

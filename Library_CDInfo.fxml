@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library_mgmt.Library_CDInfoController">
+   <children>
+      <Text layoutX="368.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD Information">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD ID:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD Title:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD Artist:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD Tracks:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD Producer:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD Price:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library Section:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="returnBtn" layoutX="410.0" layoutY="522.0" mnemonicParsing="false" onAction="#handleReturnBtn" prefHeight="30.0" prefWidth="236.0" text="Return to Menu">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="760.0" layoutY="66.0" mnemonicParsing="false" onAction="#handleEditBtn" prefHeight="30.0" prefWidth="72.0" text="Edit" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="250.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cdIDField" layoutX="500.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;cd_id&gt;" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cdTitleField" layoutX="500.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;cd_title&gt;" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cdArtistField" layoutX="500.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;cd_artist&gt;" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cdTracksField" layoutX="500.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;cd_tracks&gt;" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cdProdField" layoutX="500.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;cd_producer&gt;" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cdPriceField" layoutX="500.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;cd_price&gt;" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cdSectionField" layoutX="500.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;cd_section&gt;" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="cdStatusField" layoutX="500.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;cd_status&gt;" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

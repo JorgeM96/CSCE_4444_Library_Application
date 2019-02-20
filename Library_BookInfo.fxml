@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library_mgmt.Library_BookInfoController">
+   <children>
+      <Text layoutX="399.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Information">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="750.0" layoutY="56.0" mnemonicParsing="false" onAction="#handleEditBtn" prefHeight="30.0" prefWidth="72.0" text="Edit" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="returnBtn" layoutX="398.0" layoutY="512.0" mnemonicParsing="false" onAction="#handleReturnBtn" prefHeight="30.0" prefWidth="236.0" text="Return to Menu">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="272.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="259.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Title:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="249.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Genre:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="245.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Author:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="232.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Publisher:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="260.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Price:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="236.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library Section:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="bookIDField" layoutX="483.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;book_id&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="bookTitleField" layoutX="483.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;book_title&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="bookGenreField" layoutX="482.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;book_genre&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="bookAuthorField" layoutX="483.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;book_author&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="bookPubField" layoutX="482.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;book_publisher&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="bookPriceField" layoutX="482.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;book_price&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="bookSectionField" layoutX="482.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;book_section&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="236.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:" textAlignment="RIGHT" wrappingWidth="94.19922083616257">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="bookStatus" layoutX="482.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;book_status&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

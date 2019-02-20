@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library_mgmt.Library_RegisterPatronController">
+   <children>
+      <Text layoutX="359.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register a User" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="patronFNField" layoutX="359.0" layoutY="193.0" prefHeight="26.0" prefWidth="283.0" />
+      <TextField fx:id="patronLNField" layoutX="358.0" layoutY="241.0" prefHeight="26.0" prefWidth="283.0" />
+      <Label fx:id="firstN" layoutX="262.0" layoutY="196.0" text="First Name:" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastN" layoutX="263.0" layoutY="244.0" text="Last Name:" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="SA" layoutX="237.0" layoutY="290.0" text="Street Address:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Email" layoutX="294.0" layoutY="338.0" text="Email:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="PN" layoutX="235.0" layoutY="382.0" text="Phone Number:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="patronSAField" layoutX="359.0" layoutY="287.0" prefHeight="26.0" prefWidth="283.0" />
+      <TextField fx:id="patronEField" layoutX="358.0" layoutY="335.0" prefHeight="26.0" prefWidth="283.0" />
+      <TextField fx:id="patronPNField" layoutX="359.0" layoutY="379.0" prefHeight="26.0" prefWidth="283.0" />
+      <Button fx:id="finalRegBtn" layoutX="359.0" layoutY="530.0" mnemonicParsing="false" onAction="#HandleFinalRegister" prefHeight="30.0" prefWidth="212.0" text="Register" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelBtn" layoutX="579.0" layoutY="530.0" mnemonicParsing="false" onAction="#handleCancelBtn" text="Cancel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text fx:id="userType" layoutX="268.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Type:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="userText" layoutX="271.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="passText" layoutX="273.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="userF" layoutX="358.0" layoutY="430.0" prefHeight="26.0" prefWidth="283.0" visible="false" />
+      <PasswordField fx:id="passF" layoutX="358.0" layoutY="482.0" prefHeight="26.0" prefWidth="283.0" visible="false" />
+      <Button fx:id="userTS" layoutX="512.0" layoutY="143.0" mnemonicParsing="false" onAction="#enableFields" prefHeight="26.0" prefWidth="130.0" text="Staff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="userTP" layoutX="359.0" layoutY="143.0" mnemonicParsing="false" onAction="#disableFields" prefHeight="26.0" prefWidth="130.0" text="Patron">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="returnBtn" layoutX="414.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleReturnBtn" prefHeight="30.0" prefWidth="149.0" text="Return to Menu" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="userIDField" layoutX="358.0" layoutY="216.0" prefHeight="26.0" prefWidth="283.0" visible="false" />
+      <Text fx:id="userIDText" layoutX="279.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID:" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

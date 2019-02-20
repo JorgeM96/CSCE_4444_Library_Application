@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library_mgmt.Library_DVDDirectoryController">
+   <children>
+      <Text layoutX="374.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD Directory">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="dvdSearchBox" layoutX="392.0" layoutY="246.0" prefHeight="26.0" prefWidth="152.0" />
+      <Text layoutX="321.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search by:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="dvdSearchField" layoutX="392.0" layoutY="391.0" prefHeight="26.0" prefWidth="243.0" />
+      <Button fx:id="submitBtn" layoutX="392.0" layoutY="443.0" mnemonicParsing="false" onAction="#handleSubmitBtn" prefHeight="30.0" prefWidth="166.0" text="Submit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelBtn" layoutX="573.0" layoutY="443.0" mnemonicParsing="false" onAction="#handleCancelBtn" text="Cancel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text fx:id="errText" fill="RED" layoutX="454.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unable to find dvd." visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

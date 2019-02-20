@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library_mgmt.Library_DVDInfoController">
+   <children>
+      <Text layoutX="360.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD Information">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD ID:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD Title:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD Producer:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD Duration:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD Price:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library Section:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD Rating:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="returnBtn" layoutX="411.0" layoutY="532.0" mnemonicParsing="false" onAction="#handleReturnBtn" prefHeight="30.0" prefWidth="218.0" text="Return to Menu">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="editBtn" layoutX="761.0" layoutY="76.0" mnemonicParsing="false" onAction="#handleEditBtn" prefHeight="30.0" prefWidth="72.0" text="Edit" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="250.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status:" textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="dvdIDField" layoutX="500.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;dvd_id&gt;" wrappingWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="dvdTitleField" layoutX="500.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;dvd_title&gt;" wrappingWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="dvdProdField" layoutX="500.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;dvd_producer&gt;" wrappingWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="dvdDurationField" layoutX="500.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;dvd_duration&gt;" wrappingWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="dvdPriceField" layoutX="500.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;dvd_price&gt;" wrappingWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="dvdLSectionField" layoutX="500.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;dvd_section&gt;" wrappingWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="dvdRatingField" layoutX="500.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;dvd_rating&gt;" wrappingWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="dvdStatus" layoutX="500.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;dvd_status&gt;" wrappingWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

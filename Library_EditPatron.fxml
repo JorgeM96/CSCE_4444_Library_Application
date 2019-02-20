@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library_mgmt.Library_EditPatronController">
+   <children>
+      <Text layoutX="392.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Patron" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="242.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="242.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="257.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="277.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="216.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="editFNField" layoutX="337.0" layoutY="148.0" prefHeight="26.0" prefWidth="285.0" />
+      <TextField fx:id="editLNField" layoutX="336.0" layoutY="204.0" prefHeight="26.0" prefWidth="286.0" />
+      <TextField fx:id="editAField" layoutX="333.0" layoutY="259.0" prefHeight="26.0" prefWidth="286.0" />
+      <TextField fx:id="editEField" layoutX="337.0" layoutY="320.0" prefHeight="26.0" prefWidth="286.0" />
+      <TextField fx:id="editPNField" layoutX="337.0" layoutY="380.0" prefHeight="26.0" prefWidth="286.0" />
+      <Button fx:id="saveBtn" layoutX="337.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleSaveBtn" prefHeight="30.0" prefWidth="190.0" text="Save">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelBtn" layoutX="541.0" layoutY="439.0" mnemonicParsing="false" onAction="#handleCancelBtn" prefHeight="32.0" prefWidth="78.0" text="Cancel" />
+      <Label layoutX="129.0" layoutY="54.0" text="Patron ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="removeBtn" layoutX="333.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleRemoveBtn" prefHeight="26.0" prefWidth="286.0" text="Remove Patron" />
+      <Label fx:id="patronID" layoutX="211.0" layoutY="54.0" text="&lt;patron_id&gt;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
